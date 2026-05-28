@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Profile
 import org.springframework.transaction.annotation.Transactional
 
 @Configuration
-@Profile("!prod") // 운영 상황에서는 더미 데이터를 생성하지 않는다!
+//@Profile("!prod") // 운영 상황에서는 더미 데이터를 생성하지 않는다!
 class BaseInitData(
     private val postService: PostService
 ) {
